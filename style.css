@@ -51,10 +51,11 @@ body{
 }
 .button{
     font-family: cursive;
+    font-weight: 100;
     color: rgba(5, 255, 255, 0.815);
     background-color: slategray;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     border-radius: 20px;
