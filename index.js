@@ -24,9 +24,24 @@ const nameInput = document.getElementById('name-input');
 const submitButton = document.getElementById ('submit')
     submitButton.addEventListener('click' , (e)=>{
         nameSection.innerText = nameInput.value
-    })
+    });
+
     console.log(nameInput.value);
 
+    const colorInput = document.getElementById('colors');
+
+    const topBackground = document.getElementById ('top-background');
+        topBackground.addEventListener('click' , (e)=>{
+            topSection.style.backgroundColor = colorInput.value
+        });
+
+    const colorInput_2 = document.getElementById('colors2');
+
+    const bottomBackground = document.getElementById('bottom-background'); 
+        bottomBackground.addEventListener ('click' , (e)=>{
+            bottomSection.style.backgroundColor = colorInput_2.value
+        });
+        
 
 // function example   
 // function shout(word){

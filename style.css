@@ -47,5 +47,24 @@ h2 {
 }
 
 body{
-    background-color: slategrey;
+    background-color: rgb(29, 35, 41);
+}
+.button{
+    font-family: cursive;
+    color: cyan;
+    background-color: slategray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+}
+.input{
+    background-color: rgb(10, 88, 165);
+    border-radius: 20px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: snow;
+    border: snow;
+    border: 10px;
 }
