@@ -9,12 +9,34 @@
 </head>
 <body>
     <main>
-        <input class='input' type='text' name='name' id='name-input'/>
-        <button class= 'button' id="submit"> Update Name </button>
-        <input class='input' id='colors' type='color'>
-        <button class= 'button' id="top-background"> Change Top Color </button>
-        <input class='input' type='color' id='colors2'/>
-        <button class='button' id='bottom-background'> Change Bottom Color</button>
+        <div>
+            <input class='input' type='text' name='greeting' id='greeting-input'/>
+            
+            <button class= 'button' id="submit2"> Update Greeting </button>
+        
+            <input class='input' type='text' name='name' id='name-input'/>
+            <button class= 'button' id="submit"> Update Name </button>
+        </div>
+        <div>
+            <input class='input' id='colors' type='color'>
+            <button class= 'button' id="top-background"> Change Top Color </button>
+        
+            <input class='input' type='color' id='colors2'/>
+            <button class='button' id='bottom-background'> Change Bottom Color</button>
+        </div>
+        
+        
+        
+        <!-- <button  id='font' class = "button" type='button' onclick = "display()">Choose Font</button>
+            <script>
+                function display() {
+                    document.getElementById('font').style.fontFamily = "verdana , sans-serif";
+                }
+            </script> -->
+
+
+
+
         <div id="name-tag" class="name-tag">
             <section id="top-section" class="top">
                 <h1 id='greeting'>Hello</h1>

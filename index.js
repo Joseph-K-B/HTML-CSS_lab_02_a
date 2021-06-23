@@ -28,6 +28,13 @@ const submitButton = document.getElementById ('submit')
 
     console.log(nameInput.value);
 
+    const greetingInput = document.getElementById('greeting-input');
+
+    const submitButton2 = document.getElementById ('submit2')
+    submitButton2.addEventListener('click' , (e)=>{
+        greetingSection.innerText = greetingInput.value
+    });
+
     const colorInput = document.getElementById('colors');
 
     const topBackground = document.getElementById ('top-background');
